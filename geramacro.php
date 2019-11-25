@@ -1,5 +1,5 @@
 <?php 
-    include_once('index.php');
+    include_once('index.html');
     $method = $_SERVER['REQUEST_METHOD'];
     if($method == 'POST'){
         $idioma =  $_POST['language'];
